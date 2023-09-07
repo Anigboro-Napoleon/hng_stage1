@@ -1,29 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/styles.css">
-  <title>HNG Internship - Stage One Task</title>
-  <script src="./index.js" defer></script>
-</head>
-<body>
-  <div class="profile">
-    <div>
-      <h1 data-testid="slackUserName">Olaoluwa <br /> Anigboro-Napoleon</h1>
-      <div data-testid="myTrack">
-        <span class="span-1">Track: </span>
-        <span class="span-2">Frontend</span>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/styles.css" />
+    <title>HNG Internship - Stage One Task</title>
+    <script src="./index.js" defer></script>
+  </head>
+  <body>
+    <div class="profile">
+      <div>
+        <h1 data-testid="slackUserName">
+          Olaoluwa <br />
+          Anigboro-Napoleon
+        </h1>
+        <div data-testid="myTrack">
+          <span class="span-1">Track: </span>
+          <span class="span-2">Frontend</span>
+        </div>
+        <div class="github" data-testid="githubURL">
+          <p>
+            Check my Github profile
+            <a href="https://github.com/Anigboro-Napoleon/hng_stage1" target="_blank">here</a>
+          </p>
+        </div>
       </div>
-      <div class="github">
-        <p>Check my Github profile <a>here</a></p>
-      </div>
+      <img
+        src="./img/newhn.jpg"
+        alt="napoleonddev"
+        data-testid="slackDisplayImage"
+        width="350px"
+      />
     </div>
-    <img src="./img/newhn.jpg" alt="napoleonddev" data-testid="slackDisplayImage" width="350px">
-  </div>
-  <div class="footer">
-    <p class="day" data-testid="currentDayOfTheWeek"></p>
-    <p class="utcTime" data-testid="currentUTCTime"></p>
-  </div>
-</body>
+    <div class="footer">
+      <p class="day" data-testid="currentDayOfTheWeek"></p>
+      <p class="utcTime" data-testid="currentUTCTime"></p>
+    </div>
+  </body>
 </html>
