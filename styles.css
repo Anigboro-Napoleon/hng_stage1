@@ -29,8 +29,6 @@ body {
 
 .footer {
   width: 100%;
-  position: fixed;
-  bottom: 0;
   background-color: #d2d2d2;
   display: flex;
   justify-content: space-between;
